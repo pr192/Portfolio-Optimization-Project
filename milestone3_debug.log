@@ -1,0 +1,31 @@
+2025-09-29T12:13:20.553004  === DEBUG START ===
+2025-09-29T12:13:20.555398  Working directory: C:\Users\hp\OneDrive\Documents\Prince Gupta
+2025-09-29T12:13:20.557924  Python: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-09-29T12:13:21.009800  Platform: Windows-11-10.0.26100-SP0
+2025-09-29T12:13:21.010877  Executable: C:\Users\hp\AppData\Local\Programs\Python\Python313\python.exe
+2025-09-29T12:13:21.011863  
+2025-09-29T12:13:21.013002  Checking data folder: C:\Users\hp\OneDrive\Documents\Prince Gupta\Milestone-3\data3
+2025-09-29T12:13:21.014573  Files in data folder (10): ['Bitcoin 2024.csv', 'Bitcoin USD (01-05.2024).csv', 'Bitcoin_10.28.24-01.13.25.csv', 'Bitcoin_29_10_2023-28_10_2024_historical_data.csv', 'BTC-USD (2014-2024).csv', 'BTC-USD.csv', 'ETH-USD.csv', 'Ethereum 2024.csv', 'Ethereum_29_10_2023-28_10_2024_historical_data.csv', 'risk_checker.py']
+2025-09-29T12:13:21.016175  Imported pandas (version 2.2.3) OK
+2025-09-29T12:13:21.017489  Imported numpy (version 2.3.3) OK
+2025-09-29T12:13:22.076067  Imported matplotlib (version 3.10.3) OK
+2025-09-29T12:13:36.690812  Imported sklearn (version 1.7.2) OK
+2025-09-29T12:13:36.694353  Reading BTC file: C:\Users\hp\OneDrive\Documents\Prince Gupta\Milestone-3\data3\BTC-USD.csv
+2025-09-29T12:13:36.859526  BTC columns: ['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+2025-09-29T12:13:36.909977  BTC head:
+      Date       Open       High        Low      Close  Adj Close       Volume
+2017-11-10 320.670990 324.717987 294.541992 299.252991 299.252991  885985984.0
+2017-11-11 298.585999 319.453003 298.191986 314.681000 314.681000  842300992.0
+2017-11-12 314.690002 319.153015 298.513000 307.907990 307.907990 1613479936.0
+2025-09-29T12:13:36.911274  Reading ETH file: C:\Users\hp\OneDrive\Documents\Prince Gupta\Milestone-3\data3\ETH-USD.csv
+2025-09-29T12:13:36.923656  ETH columns: ['Date', 'Price', 'Open', 'High', 'Low', 'Vol.', 'Change %']
+2025-09-29T12:13:36.929302  ETH head:
+      Date    Price     Open     High      Low    Vol. Change %
+01/13/2025 3,172.13 3,267.52 3,337.90 3,165.76 308.46K   -2.91%
+01/12/2025 3,267.30 3,282.89 3,299.65 3,225.06 187.61K   -0.50%
+01/11/2025 3,283.57 3,267.08 3,319.41 3,219.02 170.84K    0.50%
+2025-09-29T12:13:36.930578  Attempting quick computations using the loaded CSVs...
+2025-09-29T12:13:36.943415  btc.columns: ['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+2025-09-29T12:13:36.944532  eth.columns: ['Date', 'Price', 'Open', 'High', 'Low', 'Vol.', 'Change %']
+2025-09-29T12:13:36.945904  ERROR: No price column 'Close' or 'Adj Close' found in both files.
+2025-09-29T12:13:36.947175  === DEBUG END ===
